@@ -178,7 +178,6 @@ class TranspetroAnalytics:
     # ==========================================================================
 
     def calcular_total_embarcacoes(self) -> int:
-        """Métrica 1: Número total de embarcações únicas."""
         if self.df_eventos.empty:
             return 0
         return self.df_eventos['shipName'].nunique()

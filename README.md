@@ -7,3 +7,5 @@ Back-end projeto EcoSalina desenvolvido para Transpetro - Hackathon Brasil
 - pandas
   - Instalar com o comando `Bash "pip install pandas"`
   - Instalar o tabulate `Bash "pip install tabulate"`
+  - Instalar o flask `Bash "pip install flask"`
+  - Instalar o gunicorn `Bash "pip install gunicorn"`
